@@ -1,2 +1,12 @@
+# IntelliJ
+.idea
+.idea/*
+*.iml
+
+# Scala
 *.class
 *.log
+
+# Build
+target
+.bsp
