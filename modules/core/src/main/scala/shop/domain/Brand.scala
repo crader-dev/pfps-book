@@ -12,4 +12,4 @@ trait Brands[F[_]] {
 @newtype case class BrandId(value: UUID)
 @newtype case class BrandName(value: String)
 
-case class Brand(uuid: CategoryId, name: CategoryName)
+case class Brand(uuid: BrandId, name: BrandName)
